@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+.row div{
+    border: 2px solid aqua;
+    width: 70px;
+    height: 70px; 
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+
+#but{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+#row .col-1{
+    width: 70px;
+    height: 70px; 
+}
+
+#row .col-3{
+    width: 210px;
+    height: 70px;
+}
+
+.row .col-12{
+    width: 280px;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+}
+
+
